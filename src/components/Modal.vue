@@ -27,7 +27,7 @@ export default {
           alert('13이상 입력하지 마셈');
           this.month = 1;
         }
-        else if(!(typeof(a) != 'number')){
+        if(!(typeof(a) != 'number')){
           alert('숫자만 입력하라');
           this.month = 1;
         }
